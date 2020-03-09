@@ -3,16 +3,16 @@
     "name": "Roberto Casanova",
     "occupation": "Lic. Diseñador Gráfico",
     "description": "Soy capaz de comunicar de forma visual su trabajo, haciendo uso de diferentes herramientas de retoque gráfico, herramientas de producción, técnicas de expresión gráfica y diferentes tipos de software, con la finalidad de  brindar soluciones visuales óptimas a los problemas de la comunicación gráfica y publicitaria.",
-    "image": "profilepic.jpg",
+    "image": "perfil.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "robertocasanova@gmail.com",
+    "phone": "+505 83227813",
     "address": {
-      "street": "(Your Street)",
+      "street": "Laureles Norte",
       "city": "Managua ",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "state": " Nicaragua ",
+      "zip": "201256"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",

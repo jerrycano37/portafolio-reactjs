@@ -1,5 +1,6 @@
-import React, {useEffect, useState} from "react";
+import React, {Fragment, useEffect, useState} from "react";
 import Header from './Components/Header';
+import About from "./Components/About";
 
 const App = () => {
 
@@ -21,7 +22,10 @@ const App = () => {
 
     if (resumeDatos.main !== undefined) {
         return (
+            <Fragment>
             <Header data={resumeDatos.main}/>
+            <About data={resumeDatos.main}/>
+            </Fragment>
         );
     } else {
         return null
