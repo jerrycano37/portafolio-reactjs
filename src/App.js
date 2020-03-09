@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect, useState} from "react";
+import Header from './Components/Header';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+
+    const [resumeDatos, setResumeDatos] = useState({});
+
+    useEffect(() => {
+        fetch('/resumeData.json')
+            .then(response => response.json())
+            .then(data => setResumeDatos(data));
+    }, []);
+
+    // if (Object.keys(resumeDatos).length > 0) {
+    //     return (
+    //         <Header data={resumeDatos}/>
+    //     );
+    // } else {
+    //     return null
+    // }
+
+    if (resumeDatos.main !== undefined) {
+        return (
+            <Header data={resumeDatos.main}/>
+        );
+    } else {
+        return null
+    }
+};
 
 export default App;
