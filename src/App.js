@@ -2,6 +2,7 @@ import React, {Fragment, useEffect, useState} from "react";
 import Header from './Components/Header';
 import About from "./Components/About";
 import Footer from "./Components/Footer";
+import Contacto from "./Components/Contacto";
 
 const App = () => {
 
@@ -26,6 +27,7 @@ const App = () => {
             <Fragment>
             <Header data={resumeDatos.main}/>
             <About data={resumeDatos.main}/>
+            <Contacto data={resumeDatos.main}/>
             <Footer data={resumeDatos.main}/>
             </Fragment>
         );

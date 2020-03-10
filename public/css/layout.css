@@ -207,14 +207,17 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 185px;
+   height: 185px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
+}
+#about > div > div.nine.columns.main-col > div > div.columns.download > p > a > svg{
+    margin-right: 8px;
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {

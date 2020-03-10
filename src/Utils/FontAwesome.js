@@ -10,7 +10,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 import {
-    faDownload
+    faDownload,
+    faCheck
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -21,4 +22,5 @@ library.add(
     faInstagram,
     faGithub,
     faSkype,
-    faDownload);
+    faDownload,
+    faCheck);
