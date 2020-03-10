@@ -1,4 +1,5 @@
 import React from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const About = (props) => {
     return (
@@ -20,7 +21,6 @@ const About = (props) => {
                                     <br/>
                                     {props.data.address["city"]} /
                                     {props.data.address["state"]}
-                                    {/*<span>{props.data.address["zip"]}</span>*/}
                                 </span>
                                 <br/>
                                 <span>{props.data.phone}</span><br/>
@@ -29,8 +29,8 @@ const About = (props) => {
                         </div>
                         <div className="columns download">
                             <p>
-                                <a href={props.data["resumeDownload"]} className="button">
-                                    <i className="fa fa-download"/>
+                                <a href={props.data["resumedownload"]} className="button">
+                                    <FontAwesomeIcon icon={['fas', 'download']}/>
                                     Descargar Resumen
                                 </a>
                             </p>

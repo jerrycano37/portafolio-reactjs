@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b00602b-92f1-453f-800a-31b33efe16d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/perfil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Redes.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/resumeData.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/resumeData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/FontAwesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/FontAwesome.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +32,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -69,6 +77,7 @@
       <workItem from="1583438508677" duration="5944000" />
       <workItem from="1583514192646" duration="14363000" />
       <workItem from="1583764081949" duration="24259000" />
+      <workItem from="1583804194116" duration="6675000" />
     </task>
     <task id="LOCAL-00001" summary="Portafolio&#10;Header.jsx Terminado&#10;Incluye iconos con acceso a redes sociales.">
       <created>1583788132973</created>
@@ -108,29 +117,34 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1583766831378" />
-    <state width="1557" height="202" key="GridCell.Tab.0.bottom" timestamp="1583788545451">
+    <state width="1556" height="195" key="GridCell.Tab.0.bottom" timestamp="1583806289543">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1556" height="195" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1583806289543" />
     <state width="1557" height="202" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583788545451" />
-    <state width="1557" height="202" key="GridCell.Tab.0.center" timestamp="1583788545451">
+    <state width="1556" height="195" key="GridCell.Tab.0.center" timestamp="1583806289542">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1556" height="195" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1583806289542" />
     <state width="1557" height="202" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583788545451" />
-    <state width="1557" height="202" key="GridCell.Tab.0.left" timestamp="1583788545451">
+    <state width="1556" height="195" key="GridCell.Tab.0.left" timestamp="1583806289541">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1556" height="195" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1583806289541" />
     <state width="1557" height="202" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583788545451" />
-    <state width="1557" height="202" key="GridCell.Tab.0.right" timestamp="1583788545451">
+    <state width="1556" height="195" key="GridCell.Tab.0.right" timestamp="1583806289543">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1556" height="195" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1583806289543" />
     <state width="1557" height="202" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583788545451" />
     <state x="392" y="159" key="Vcs.Push.Dialog.v2" timestamp="1583788148704">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="159" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583788148704" />
-    <state x="476" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1583764337804">
+    <state x="476" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1583804211150">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="476" y="254" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1600.860@0.0.1600.860" timestamp="1583804211150" />
     <state x="476" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1583764337804" />
     <state x="487" y="146" width="626" height="568" key="find.popup" timestamp="1583775720563">
       <screen x="0" y="0" width="1600" height="860" />

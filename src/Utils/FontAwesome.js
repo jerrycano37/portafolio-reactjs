@@ -9,6 +9,10 @@ import {
     faSkype
 } from '@fortawesome/free-brands-svg-icons'
 
+import {
+    faDownload
+} from '@fortawesome/free-solid-svg-icons'
+
 library.add(
     faFacebook,
     faWhatsapp,
@@ -16,4 +20,5 @@ library.add(
     faLinkedinIn,
     faInstagram,
     faGithub,
-    faSkype);
+    faSkype,
+    faDownload);

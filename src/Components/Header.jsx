@@ -1,15 +1,8 @@
 import React from 'react';
 import {Nav, NavItem, NavLink} from 'reactstrap'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import Redes from "./Redes";
 
 const Header = (props) => {
-
-    let redes = props.data["social"].map(redes =>
-        <li key={redes.name}>
-            <a href={redes.url}>
-                <FontAwesomeIcon icon={['fab', redes.className]}/>
-                <i className={""}/>
-            </a></li>);
 
     return <header id="home">
 
@@ -52,13 +45,11 @@ const Header = (props) => {
             <div className="banner-text">
                 <h1 className="responsive-headline">{props.data.name}</h1>
                 <h3>
-                    {/*Soy de {props.data.address.city}*/}
-                    {/*<span>{props.data["occupation"]}</span>.*/}
                     {props.data.description}
                 </h3>
                 <hr/>
                 <ul className="social">
-                    {redes}
+                    {<Redes data={props.data}/>}
                 </ul>
             </div>
         </div>
